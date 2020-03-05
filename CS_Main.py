@@ -1,5 +1,5 @@
-from CS_Casino import CS_Casino
-Casino = Casino_Shuffle()
+from CS_cShuffle import CS_Casino
+Casino = CS_Casino()
 Casino.massMix()
 Casino.print()
 
