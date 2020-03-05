@@ -6,7 +6,7 @@ class CS_Deck(object):
         total.cDeck()
 
     def __str__(total):
-        return '~' + .join(str(Card) for Card in total.cards) + '~'
+        return '~' + join(str(Card) for Card in total.cards) + '~'
     
     def cDeck(total):
         total.cards = []

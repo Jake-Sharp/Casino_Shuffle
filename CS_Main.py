@@ -1,6 +1,6 @@
-from Casino_Shuffle import Casino_Shuffle
+from CS_Casino import CS_Casino
 Casino = Casino_Shuffle()
-    Casino.masMix()
-        Casino.print()
-        return 'Done'
+Casino.massMix()
+Casino.print()
+
 
